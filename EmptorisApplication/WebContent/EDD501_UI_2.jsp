@@ -1,17 +1,17 @@
  <%@ page import="java.util.*,com.ibm.emptoris.bean.Template" %>
 <%@ include file="IBM_Header.jsp" %>
 <div class="ibm-container">
-	<h2>Emptoris' Table Management</h2>  
+	<h2>Emptoris' Table Management System</h2>  
 	<%@ include file="IBM_EmptorisSearch.jsp" %>
 	<%
 		ArrayList<Template> templateList = null;
 		Iterator<Template> templateListItr = null;
-		int templateCount = 0;    
+		int templateCount = 0;
 		if(session.getAttribute("TEMPLATE_DETAILS")!=null){
 			templateList = (ArrayList<Template>)session.getAttribute("TEMPLATE_DETAILS");
 			templateCount = templateList.size();
 			templateListItr = templateList.iterator();
-		}      
+		}
 	 %>
 	<form action="" method="get" class="ibm-styled-form">
 			<table class="ibm-data-table ibm-alternate">
