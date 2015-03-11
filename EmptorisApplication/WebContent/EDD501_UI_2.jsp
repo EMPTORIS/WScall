@@ -1,7 +1,7 @@
  <%@ page import="java.util.*,com.ibm.emptoris.bean.Template" %>
 <%@ include file="IBM_Header.jsp" %>
 <div class="ibm-container">
-	<h2>Emptoris' Table Management System</h2>  
+	<h2>EMTORIS' TABLE MNAGEMENT SYSTEM</h2>  
 	<%@ include file="IBM_EmptorisSearch.jsp" %>
 	<%
 		ArrayList<Template> templateList = null;
