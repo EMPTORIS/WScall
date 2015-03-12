@@ -1,7 +1,7 @@
 	<div class="ibm-container ibm-show-hide ibm-alternate">
 		<h2 style="font-size:12px"> 
 			<a id="searchSectionId" href="#show-hide" aria-expanded="false" tabindex="0">
-				Search Panel
+				Search Panel Edited
 			</a>
 		</h2>
 		<div class="ibm-container-body" style="width:100%;" id="contentbox">
